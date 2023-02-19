@@ -5,7 +5,7 @@ describe('streakCounter', () => {
     let mockLocalStorage: Storage;
 
     beforeEach(() => {
-        mockLocalStorage = window.localStorage
+        mockLocalStorage = localStorage
     });
 
     it('should return a streak object with currentCount, startDate and lastLoginDate', () => {
