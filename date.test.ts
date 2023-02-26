@@ -1,5 +1,5 @@
 import { describe, it, expect, beforeEach } from 'vitest';
-import { streakCounter, dateFormat } from './main';
+import { streakCounter, dateFormat } from './date';
 
 describe('streakCounter', () => {
     let mockLocalStorage: Storage;

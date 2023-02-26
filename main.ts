@@ -99,12 +99,11 @@ type StringNumberBooleans = [string, number, ...boolean[]]
 const resttuple: StringNumberBooleans = ['son kez', 4, true, false, true, true]
 resttuple.length // number
 
-// const point = [3, 4] as const
 type Point = [number, number]
+// const point = [3, 4] as const
 const point = [3, 4] as Point
 
-// function distance([x, y]: [number, number])
-function distance([x, y]: Point) {
+function distance([x, y]: [number, number]) {
     return Math.sqrt(x ** 2 + y ** 2)
 }
 
